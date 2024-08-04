@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS MATERIALIZE-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <!--CSS LOCAL-->
+        <link rel="stylesheet" href="./CSS/index.css">
+        <!--JAVASCRIPT LOCAL-->
+        <script src="JS/index.js"></script>
+        <!--MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!--JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!--GOOGLE ICON FONT-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+
+        <title>Conflito</title>
+    </head>
+
+    <body>
+<!-- CABEÇALHO ------------------------------------------------------------------------------------------------------------------------------>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Sobre</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Decks</a></li>
+            <li><a href="#!">Cards</a></li>
+            <li><a href="#!">Acessórios</a></li>
+            <li><a href="#!">Want</a></li>
+        </ul>
+        <nav id="cabecalho">
+            <div class="nav-wrapper"> <!-- Display Flex -->
+                <img src="Assets/MTG_SIMBOL_W.png" alt="Simbolo de planeswalkers de Magic the Gathering">
+                <a href="Index.html" target="_self" class="brand-logo"><img src="Assets/Conflito_Logo.jpg" class="brand-logo-img" alt="Logo da Conflito"></a>
+                <div id="busca" class="hide-on-med-and-down">
+                    <input type="text" id="areaPesquisa">
+                    <div class="displayFlex">
+                        <b><i class="material-icons" id="lupa">search</i></b>
+                    </div>
+                </div>
+                <a class="dropdown-button" id="botaoMenu" href="#!" data-activates="dropdown1"><i class="material-icons" id="icone-menu">menu</i></a>
+            </div> <!-- Display Flex -->
+        </nav>
+
+<!-- CORPO DA PÁGINA ------------------------------------------------------------------------------------------------------------------------>
+        <main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, corporis. 
+            Nisi dolorum quo cum dolor veniam tempora ipsam vel tempore nemo inventore 
+            autem, sequi, assumenda vero beatae. Excepturi, repellendus quibusdam.
+        </p>
+        </main>
+
+<!-- RODAPÉ --------------------------------------------------------------------------------------------------------------------------------->
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright" id="copyright">
+                <div class="container">
+                    © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!--MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>$(".dropdown-button").dropdown();</script>
+    </body>
+</html>

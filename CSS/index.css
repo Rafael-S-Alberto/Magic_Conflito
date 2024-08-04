@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#cabecalho {
+  height: 90px;
+}
+
+div.displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  background-color: #261A42;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-wrapper img {
+  height: 75%;
+  margin-right: auto;
+  margin-left: 4%;
+}
+
+a.brand-logo { 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100%;
+  margin-left: 6%;
+}
+
+.brand-logo-img {
+  height: 75%;
+}
+
+#busca {
+  border: 2px solid #000000;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  height: 44px;
+  max-width: 650px;
+  min-width: 650px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+#areaPesquisa {
+  margin-right: auto;
+  margin-left: 15px;
+  width: 550px;
+  height: 100%;
+  border-bottom: none;
+  box-shadow: none;
+  color: #000;
+}
+
+#lupa{
+  margin-right: 15px;
+  margin-left: auto;
+  color: #000;
+}
+
+#icone-menu{
+  font-size: 5em;
+  margin-right: 100px;
+}
+
+.page-footer {
+  background-color: #261A42;
+}
+
+#copyright {
+  background-color: #24183c;
+}
