@@ -33,6 +33,14 @@
             <li><a href="#!">Acessórios</a></li>
             <li><a href="#!">Want</a></li>
         </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!">Login</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Decks</a></li>
+            <li><a href="#!">Cards</a></li>
+        </ul>
+
         <nav id="cabecalho">
             <div class="nav-wrapper"> <!-- Display Flex -->
                 <img src="Assets/MTG_SIMBOL_W.png" alt="Simbolo de planeswalkers de Magic the Gathering">
@@ -40,9 +48,12 @@
                 <div id="busca" class="hide-on-med-and-down">
                     <input type="text" id="areaPesquisa">
                     <div class="displayFlex">
-                        <b><i class="material-icons" id="lupa">search</i></b>
+                        <button id="botaoBusca">
+                            <b><i class="material-icons" id="lupa">search</i></b>
+                        </button>
                     </div>
                 </div>
+                <a class="dropdown-button" id="botaoConta" href="#!" data-activates="dropdown2"><i class="material-icons" id="icone-conta">person</i></a>
                 <a class="dropdown-button" id="botaoMenu" href="#!" data-activates="dropdown1"><i class="material-icons" id="icone-menu">menu</i></a>
             </div> <!-- Display Flex -->
         </nav>
