@@ -24,15 +24,6 @@ Uma dificuldade surge para todo jogadore de Magic, the Gathering, assim que sua 
 Há também uma área reservada para a criação de uma lista de Want (cartas desejadas), facilitando a troca de cards quando for o caso.
 
 
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
 ## Aprendizados
 
 Durante a produção deste projeto foram utilizadas:
@@ -44,5 +35,7 @@ Durante a produção deste projeto foram utilizadas:
 ---
  - Figma
  - Git/Github
- - Banco de dados (MariaDB)
  - Materialize / Bootstrap
+---
+ - API Restfull
+ - Banco de dados
